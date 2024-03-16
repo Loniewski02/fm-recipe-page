@@ -8,7 +8,7 @@ import Preparation from "./components/sections/Preparation";
 const App: React.FC = () => {
   return (
     <>
-      <main className=" wrapper bg-White md:my-24 md:overflow-hidden md:rounded-3xl">
+      <main className=" wrapper bg-White md:my-[123px] md:overflow-hidden md:rounded-3xl">
         <Hero />
         <Header />
         <Preparation />

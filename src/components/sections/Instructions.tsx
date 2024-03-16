@@ -44,7 +44,7 @@ const Instructions: React.FC = () => {
             key={item.id}
             className=" text-BrandyRed font-bold"
             isTop={true}
-            symbol={index + "."}
+            symbol={index+1 + "."}
           >
             <span className="font-bold">{item.title}: </span>
             {item.desc}
