@@ -14,9 +14,9 @@ const DUMMY_DATA = [
 
 const Ingredients: React.FC = () => {
   return (
-    <section className="md:px-10 px-8 pb-8 pt-4">
+    <section className="px-8 pb-8 pt-4 md:px-10">
       <Heading>Ingredients</Heading>
-      <ul className="flex flex-col gap-2">
+      <ul className="flex flex-col gap-2 md:gap-[10px]">
         {DUMMY_DATA.map((item) => (
           <Item
             key={item.id}

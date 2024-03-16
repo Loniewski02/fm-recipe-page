@@ -17,9 +17,9 @@ const Nutrition: React.FC = () => {
       </p>
       <div>
         {DUMMY_DATA.map((item) => (
-          <p className="text-BrandyRed flex border-b-[1px] border-LightGrey py-3">
-            <span className="w-[50%] pl-8">{item.title}</span>
-            <span className=" w-[50%]">{item.value}</span>
+          <p className="text-BrandyRed flex border-b-[1px] border-LightGrey py-3 last:border-none">
+            <span className=" w-[50%] pl-8 text-WengeBrown">{item.title}</span>
+            <span className="w-[50%] font-bold">{item.value}</span>
           </p>
         ))}
       </div>

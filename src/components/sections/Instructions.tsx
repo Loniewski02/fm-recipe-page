@@ -38,13 +38,13 @@ const Instructions: React.FC = () => {
   return (
     <section className="px-8 py-8 md:px-10">
       <Heading>Instructions</Heading>
-      <ul className="flex flex-col gap-2">
+      <ul className="flex flex-col gap-2 md:gap-[10px]">
         {DUMMY_DATA.map((item, index) => (
           <Item
             key={item.id}
             className=" text-BrandyRed font-bold"
             isTop={true}
-            symbol={index+1 + "."}
+            symbol={index + 1 + "."}
           >
             <span className="font-bold">{item.title}: </span>
             {item.desc}

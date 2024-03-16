@@ -13,7 +13,7 @@ const Preparation: React.FC = () => {
         <h2 className="mb-4 text-xl font-semibold text-DarkRaspberry">
           Preparation time
         </h2>
-        <ul className="flex list-none flex-col gap-2">
+        <ul className="flex list-none flex-col gap-2 md:gap-[10px]">
           {DUMMY_DATA.map((item) => (
             <Item className="block h-1 min-h-1 w-1 min-w-1 rounded-full bg-DarkRaspberry ">
               <span className="font-bold">{item.name}: </span>
