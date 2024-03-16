@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply mx-auto w-full max-w-screen-md;
+  }
+
+  .serif {
+    font-family: "Young Serif", serif;
+  }
+
+  .btn-press-anim {
+    @apply transition-transform active:scale-75;
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Outfit", sans-serif;
+    @apply min-h-[100dvh] bg-Eggshell;
+  }
+}
